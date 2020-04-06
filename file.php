@@ -32,10 +32,14 @@
 
 // disable moodle specific debug messages and any errors in output
 define('NO_DEBUG_DISPLAY', true);
+// disable moodle specific debug messages and any errors in output
+// disable moodle specific debug messages and any errors in output
 
 require_once('config.php');
 require_once('lib/filelib.php');
 
+require_once('config.php');
+require_once('lib/filelib.php');
 $relativepath  = get_file_argument();
 $forcedownload = optional_param('forcedownload', 0, PARAM_BOOL);
 
